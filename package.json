@@ -1,0 +1,27 @@
+{
+  "name": "friend-finder-app",
+  "version": "1.0.0",
+  "description": "##Overview This application is a simply survey, that will then compare your answers with other users and pair you up with a new friend based on your scores.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cetges86/friend-finder-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cetges86/friend-finder-app/issues"
+  },
+  "homepage": "https://github.com/cetges86/friend-finder-app#readme"
+}
