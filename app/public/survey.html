@@ -250,7 +250,7 @@
                     $.post("/api/friends", newUser)
                         .done(function (data) {
                             //populates picture and name
-                            $('#friendName').text(`Your chosen friend is ${data.friendName}! Hooray!!`);
+                            $('#friendName').text(`Your chosen friend is ${data.friendName}!`);
                             $('#friendImg').attr("src", `${data.friendImg}`);
                             $('#modal1').modal('open');
                         });
